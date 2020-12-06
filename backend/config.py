@@ -6,7 +6,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 class Config:
     DEBUG = True
     TESTING = False
-    SECRET_KEY = 'BBr9FA3PeVJQu4XHV1LztbRMBk'
+    SECRET_KEY = ''
 
     MONGODB_SETTINGS = {
         'db': 'Ghummie',
